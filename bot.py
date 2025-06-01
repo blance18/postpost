@@ -6,7 +6,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 # Загружаем .env переменные
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN ="BOT_TOKEN"
 
 # Логирование
 logging.basicConfig(level=logging.INFO)
